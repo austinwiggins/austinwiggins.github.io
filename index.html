@@ -349,12 +349,6 @@ th {
 }
   
 </style>
-  <script>
-    $(".li").hover(function(){
-        $(this).css("background-color", "white");
-        });
-  </script>
-</head>
   <title>
     Austin Wiggins Portfolio
   </title>
@@ -362,6 +356,13 @@ th {
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
  </script>
+  <script>
+  $(".li").hover(function(){
+        $(this).css("background-color", "white");
+        }, function(){
+        $(this).css("background-color", "#d9d9d9");
+    });
+  </script>
 </head>
 
 <body>
