@@ -325,9 +325,9 @@ th {
   background-color:#d9d9d9;
 }
   
-  .li:hover {
-    background-color:white;
-  }
+ #headername:hover {
+  background-color:#d9d9d9;
+}
 
 #headername {
   color:black;
@@ -349,6 +349,13 @@ th {
 }
   
 </style>
+  <script>
+    $(".li").hover(function(){
+        $(this).css("background-color", "white");
+        }, function(){
+        $(this).css("background-color", "#d9d9d9");
+    });
+  </script>
 </head>
   <title>
     Austin Wiggins Portfolio
