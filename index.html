@@ -17,7 +17,674 @@ Interested in hiring me? Contact me by E-mail at bigwigaustin@gmail.com and I wi
 <meta name = "description" content = "I am a Front-End Web Developer located in Colorado. I have an extensive knowledge of many programming languages. Contact me for a free business consultation regarding my services today.">
   <meta name = "author" content = "Austin Wiggins">
   <style>
-#about {
+@media(max-width:480px) {
+  .infotext {
+    font-size: 15px;
+  }
+  
+  #about {
+    background: linear-gradient(to right, #0066ff, aquamarine);
+    background: -webkit-linear-gradient(left, #0066ff, aquamarine);
+    background: -o-linear-gradient(right, #0066ff, aquamarine);
+    background: -moz-linear-gradient(right, #0066ff, aquamarine);
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 80px;
+  }
+  
+  #portfolio {
+    background: white;
+    background: -webkit-radial-gradient(#FFFFFF, #C0C0C0, #909090);
+    background: -o-radial-gradient(#FFFFFF, #C0C0C0, #909090);
+    background: -moz-radial-gradient(#FFFFFF, #C0C0C0, #909090);
+    background: radial-gradient(#FFFFFF, #C0C0C0, #909090);
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  
+  #skills {
+    background: -webkit-linear-gradient(left, rgba(255, 153, 153, 0), rgba(255, 153, 153, 1));
+    background: -o-linear-gradient(right, rgba(255, 153, 153, 0), rgba(255, 153, 153, 1));
+    background: -moz-linear-gradient(right, rgba(255, 153, 153, 0), rgba(255, 153, 153, 1));
+    background: linear-gradient(to right, rgba(255, 153, 153, 0), rgba(255, 153, 153, 1));
+    text-align: center;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  
+  #contact {
+    background: #66ffff;
+    background: -webkit-linear-gradient(left top, #66ffff, #66ff66);
+    background: -o-linear-gradient(bottom right, #66ffff, #66ff66);
+    background: -moz-linear-gradient(bottom right, #66ffff, #66ff66);
+    background: linear-gradient(to bottom right, #66ffff, #66ff66);
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  
+  .navbarleft {
+  background-color:#d9d9d9;
+}
+  
+  #headername:hover {
+  background-color:#d9d9d9;
+}
+  
+#headername {
+  color:black;
+}
+  
+#navbartop {
+  background-color:#e5e6e8;
+}
+  
+  .firstline {
+  font-weight: bold;
+  font-family: Times, Serif;
+  font-size: 50px;
+  text-align: center;
+  color:black;
+}
+  
+  .firstsubtitle {
+  font-size: 22px;
+  text-align: center;
+  font-family: Arial, Serif;
+  font-weight: 500;
+  font-style: italic;
+  color:black;
+}
+  
+  .horizontalrule {
+    width:90%;
+  }
+  
+  .bolditalic {
+  font-weight: bold;
+  font-style: italic;
+}
+  
+  .infotext {
+  color: black;
+  font-family: Times, Serif;
+  font-size: 15px;
+  text-align: left;
+  margin-left: 10px;
+  text-indent: 15px;
+}
+  
+  .unorderedlist {
+  list-style-type: square;
+}
+  
+.a {
+  color: black;
+  text-decoration: none;
+}
+  
+.a:hover {
+  color: black;
+  text-decoration: none;
+}
+  
+.a:visited {
+  color: black;
+  text-decoration: none;
+}
+  
+  .secondline {
+  font-weight: bold;
+  font-family: Times, Serif;
+  font-size: 50px;
+  text-align: center;
+  font-style: italic;
+  color:black;
+  padding-bottom:5px;
+  padding-top:35px;
+}
+  
+  .secondsubtitle {
+  font-size: 20px;
+  text-align: center;
+  font-family: Arial, Serif;
+  font-weight: 500;
+  font-style: italic;
+  font-weight: bold;
+  color:black;
+}
+  
+  body {
+  color: black;
+}
+  
+.description {
+  font-weight: bold;
+  font-style: italic;
+  font-family: Times, Serif;
+  font-size: 30px;
+  color:black;
+  text-align: center;
+}
+
+  table,
+th,
+td {
+  text-align: center;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  margin: auto;
+}
+th {
+  color: #0033cc;
+  font-style: italic;
+}
+.imgtooltip {
+  font-family: Times, Serif;
+  font-size:15px;
+  color:black;
+}
+.portfoliolink {
+  color: blue;
+  text-decoration: none;
+}
+.portfoliolink:visited {
+  color: blue;
+  text-decoration: none;
+}
+.portfoliolink:active {
+  color: blue;
+  text-decoration: none;
+}
+.portfoliolink:hover {
+  color: red;
+  text-decoration: none;
+}
+  
+   .img {
+   padding-bottom:10px; 
+    width:100%;
+  }
+  
+  .fourthline {
+  font-family: Arial, Sans-Serif;
+    font-size:50px;
+    text-align:center;
+    color:black;
+    padding-bottom:20px;
+    padding-top: 40px;
+  }
+  
+  .skilltitle {
+    font-family: Times, Serif;
+    font-size:27px;
+    color:black;
+    font-weight:bold;
+    text-align:center;
+    padding-bottom:10px;
+    padding-right:20px;
+    padding-left:20px;
+  }
+  
+  .skillcontent {
+    font-family:Arial, Sans-Serif;
+    font-size:15px;
+    color:black;
+    max-width:800px;
+    padding-bottom: 20px;
+    text-align:center;
+    padding-right:20px;
+    padding-left:20px;
+  }
+  
+  .thirdline {
+  font-family: Impact, serif;
+  font-size: 50px;
+  text-align: center;
+  font-weight:bold;
+  color:black;
+  padding-bottom:20px;
+}
+  
+  .contactmeinfo {
+  font-family: Times, Serif;
+  font-size:15px;
+  text-align:center;
+  color:black;
+}
+  
+  .button {
+  text-align: center;
+  background-color: #d1d1e0;
+  color: black;
+  padding: 16px;
+  width: 200px;
+  border-radius: 5px;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  border: 2px solid black;
+  box-shadow: 5px 5px 5px #888888;
+  transition: .3s;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  -moz-transition: .3s;
+}
+  
+.buttontwo {
+  text-align: center;
+  background-color: #d1d1e0;
+  color: black;
+  width: 150px;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px;
+  font-weight: bold;
+  border: 2px solid black;
+  box-shadow: 5px 5px 5px #888888;
+  transition: .3s;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  -moz-transition: .3s;
+}
+  
+  .buttonthree {
+  text-align: center;
+  background-color: #d1d1e0;
+  color: black;
+  padding: 30px;
+  width: 250px;
+  border-radius: 5px;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  border: 2px solid black;
+  box-shadow: 5px 5px 5px #888888;
+  transition: .3s;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  -moz-transition: .3s;
+}
+ 
+  .button:hover {
+  background-color: black;
+  color: white
+}
+  
+.buttontwo:hover {
+  background-color: black;
+  color: white;
+}
+  
+  .buttonthree:hover {
+  background-color: black;
+  color: white;
+}
+  
+  .portfoliofooter {
+  background: background: #c1c1d7;
+  background: -webkit-radial-gradient(white, #c1c1d7);
+  background: -o-radial-gradient(white, #c1c1d7);
+  background: -moz-radial-gradient(white, #c1c1d7);
+  background: radial-gradient(white, #c1c1d7);
+  text-align: center;
+  font-family: Arial, san-serif;
+  font-size: 15px;
+  color:black;
+}
+  
+  .footeremaillink {
+  color: black;
+  text-decoration: none;
+}
+.footeremaillink:hover {
+  color: black;
+  text-decoration: none;
+}
+.footeremaillink:visited {
+  color: black;
+  text-decoration: none;
+}
+  
+}
+
+@media(min-width:480px) {
+.infotext {
+    font-size: 15px;
+  }
+  #about {
+    background: linear-gradient(to right, #0066ff, aquamarine);
+    background: -webkit-linear-gradient(left, #0066ff, aquamarine);
+    background: -o-linear-gradient(right, #0066ff, aquamarine);
+    background: -moz-linear-gradient(right, #0066ff, aquamarine);
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 90px;
+  }
+  #portfolio {
+    background: white;
+    background: -webkit-radial-gradient(#FFFFFF, #C0C0C0, #909090);
+    background: -o-radial-gradient(#FFFFFF, #C0C0C0, #909090);
+    background: -moz-radial-gradient(#FFFFFF, #C0C0C0, #909090);
+    background: radial-gradient(#FFFFFF, #C0C0C0, #909090);
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  #skills {
+    background: -webkit-linear-gradient(left, rgba(255, 153, 153, 0), rgba(255, 153, 153, 1));
+    background: -o-linear-gradient(right, rgba(255, 153, 153, 0), rgba(255, 153, 153, 1));
+    background: -moz-linear-gradient(right, rgba(255, 153, 153, 0), rgba(255, 153, 153, 1));
+    background: linear-gradient(to right, rgba(255, 153, 153, 0), rgba(255, 153, 153, 1));
+    text-align: center;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  #contact {
+    background: #66ffff;
+    background: -webkit-linear-gradient(left top, #66ffff, #66ff66);
+    background: -o-linear-gradient(bottom right, #66ffff, #66ff66);
+    background: -moz-linear-gradient(bottom right, #66ffff, #66ff66);
+    background: linear-gradient(to bottom right, #66ffff, #66ff66);
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  
+  .navbarleft {
+  background-color:#d9d9d9;
+}
+  
+  #headername:hover {
+  background-color:#d9d9d9;
+}
+#headername {
+  color:black;
+}
+  
+#navbartop {
+  background-color:#e5e6e8;
+}
+  
+  .firstline {
+  font-weight: bold;
+  font-family: Times, Serif;
+  font-size: 60px;
+  text-align: center;
+  color:black;
+}
+  
+  .firstsubtitle {
+  font-size: 30px;
+  text-align: center;
+  font-family: Arial, Serif;
+  font-weight: 500;
+  font-style: italic;
+  color:black;
+}
+  
+  .horizontalrule {
+    width:90%;
+  }
+  
+  .bolditalic {
+  font-weight: bold;
+  font-style: italic;
+}
+  
+  .infotext {
+  color: black;
+  font-family: Times, Serif;
+  font-size: 18px;
+  text-align: left;
+  margin-left: 10px;
+  text-indent: 15px;
+}
+  
+  .unorderedlist {
+  list-style-type: square;
+}
+  
+.a {
+  color: black;
+  text-decoration: none;
+}
+  
+.a:hover {
+  color: black;
+  text-decoration: none;
+}
+  
+.a:visited {
+  color: black;
+  text-decoration: none;
+}
+  
+  .secondline {
+  font-weight: bold;
+  font-family: Times, Serif;
+  font-size: 60px;
+  text-align: center;
+  font-style: italic;
+  color:black;
+  padding-bottom:5px;
+  padding-top:35px;
+}
+  
+  .secondsubtitle {
+  font-size: 30px;
+  text-align: center;
+  font-family: Arial, Serif;
+  font-weight: 500;
+  font-style: italic;
+  font-weight: bold;
+  color:black;
+}
+  
+  body {
+  color: black;
+}
+  
+.description {
+  font-weight: bold;
+  font-style: italic;
+  font-family: Times, Serif;
+  font-size: 30px;
+  color:black;
+  text-align: center;
+}
+
+  table,
+th,
+td {
+  text-align: center;
+  width: 60%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  margin: auto;
+}
+th {
+  color: #0033cc;
+  font-style: italic;
+}
+.imgtooltip {
+  font-family: Times, Serif;
+  font-size:17px;
+  color:black;
+}
+.portfoliolink {
+  color: blue;
+  text-decoration: none;
+}
+.portfoliolink:visited {
+  color: blue;
+  text-decoration: none;
+}
+.portfoliolink:active {
+  color: blue;
+  text-decoration: none;
+}
+.portfoliolink:hover {
+  color: red;
+  text-decoration: none;
+}
+  
+   .img {
+   padding-bottom:10px; 
+    width:100%;
+  }
+  
+  .fourthline {
+  font-family: Arial, Sans-Serif;
+    font-size:60px;
+    text-align:center;
+    color:black;
+    padding-bottom:20px;
+    padding-top: 40px;
+  }
+  
+  .skilltitle {
+    font-family: Times, Serif;
+    font-size:30px;
+    color:black;
+    font-weight:bold;
+    text-align:center;
+    padding-bottom:10px;
+    padding-right:20px;
+    padding-left:20px;
+  }
+  
+  .skillcontent {
+    font-family:Arial, Sans-Serif;
+    font-size:15px;
+    color:black;
+    max-width:800px;
+    padding-bottom: 20px;
+    text-align:center;
+    padding-right:20px;
+    padding-left:20px;
+  }
+  
+  .thirdline {
+  font-family: Impact, serif;
+  font-size: 60px;
+  text-align: center;
+  font-weight:bold;
+  color:black;
+  padding-bottom:20px;
+}
+  
+  .contactmeinfo {
+  font-family: Times, Serif;
+  font-size:18px;
+  text-align:center;
+  color:black;
+}
+  
+  .button {
+  text-align: center;
+  background-color: #d1d1e0;
+  color: black;
+  padding: 16px;
+  width: 200px;
+  border-radius: 5px;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  border: 2px solid black;
+  box-shadow: 5px 5px 5px #888888;
+  transition: .3s;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  -moz-transition: .3s;
+}
+  
+.buttontwo {
+  text-align: center;
+  background-color: #d1d1e0;
+  color: black;
+  width: 100px;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px;
+  font-weight: bold;
+  border: 2px solid black;
+  box-shadow: 5px 5px 5px #888888;
+  transition: .3s;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  -moz-transition: .3s;
+}
+  
+  .buttonthree {
+  text-align: center;
+  background-color: #d1d1e0;
+  color: black;
+  padding: 30px;
+  width: 250px;
+  border-radius: 5px;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  border: 2px solid black;
+  box-shadow: 5px 5px 5px #888888;
+  transition: .3s;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  -moz-transition: .3s;
+}
+ 
+  .button:hover {
+  background-color: black;
+  color: white;
+  width:230px;
+}
+  
+.buttontwo:hover {
+  background-color: black;
+  color: white;
+  width:150px;
+}
+  
+  .buttonthree:hover {
+  background-color: black;
+  color: white;
+    width:300px;
+}
+  
+  .portfoliofooter {
+  background: background: #c1c1d7;
+  background: -webkit-radial-gradient(white, #c1c1d7);
+  background: -o-radial-gradient(white, #c1c1d7);
+  background: -moz-radial-gradient(white, #c1c1d7);
+  background: radial-gradient(white, #c1c1d7);
+  text-align: center;
+  font-family: Arial, san-serif;
+  font-size: 15px;
+  color:black;
+}
+  
+  .footeremaillink {
+  color: black;
+  text-decoration: none;
+}
+.footeremaillink:hover {
+  color: black;
+  text-decoration: none;
+}
+.footeremaillink:visited {
+  color: black;
+  text-decoration: none;
+}
+  
+}
+
+@media(min-width:1000px) {
+  #about {
   background: linear-gradient(to right, #0066ff, aquamarine);
   background: -webkit-linear-gradient(left, #0066ff, aquamarine);
   background: -o-linear-gradient(right, #0066ff, aquamarine);
@@ -27,7 +694,7 @@ Interested in hiring me? Contact me by E-mail at bigwigaustin@gmail.com and I wi
   padding-top:120px;
   padding-left:10px;
 }
-
+  
 .firstline {
   font-weight: bold;
   font-family: Times, Serif;
@@ -35,7 +702,7 @@ Interested in hiring me? Contact me by E-mail at bigwigaustin@gmail.com and I wi
   text-align: center;
   color:black;
 }
-
+  
 .firstsubtitle {
   font-size: 30px;
   text-align: center;
@@ -44,11 +711,11 @@ Interested in hiring me? Contact me by E-mail at bigwigaustin@gmail.com and I wi
   font-style: italic;
   color:black;
 }
-
+  
 .horizontalrule {
   width: 80%;
 }
-
+  
 .infotext {
   color: black;
   font-family: Times, Serif;
@@ -57,31 +724,31 @@ Interested in hiring me? Contact me by E-mail at bigwigaustin@gmail.com and I wi
   margin-left: 15px;
   text-indent: 20px;
 }
-
+  
 .bolditalic {
   font-weight: bold;
   font-style: italic;
 }
-
+  
 .unorderedlist {
   list-style-type: square;
 }
-
+  
 .a {
   color: black;
   text-decoration: none;
 }
-
+  
 .a:hover {
   color: black;
   text-decoration: none;
 }
-
+  
 .a:visited {
   color: black;
   text-decoration: none;
 }
-
+  
 #portfolio {
   background: white;
   background: -webkit-radial-gradient(#FFFFFF, #C0C0C0, #909090);
@@ -91,18 +758,18 @@ Interested in hiring me? Contact me by E-mail at bigwigaustin@gmail.com and I wi
   padding-right:10px;
   padding-left:10px;
 }
-
+  
 .secondline {
   font-weight: bold;
   font-family: Times, Serif;
-  font-size: 60px;
+  font-size: 70px;
   text-align: center;
   font-style: italic;
   color:black;
   padding-bottom:5px;
   padding-top:65px;
 }
-
+  
 .secondsubtitle {
   font-size: 30px;
   text-align: center;
@@ -112,11 +779,11 @@ Interested in hiring me? Contact me by E-mail at bigwigaustin@gmail.com and I wi
   font-weight: bold;
   color:black;
 }
-
+  
 body {
   color: black;
 }
-
+  
 .description {
   font-weight: bold;
   font-style: italic;
@@ -124,7 +791,7 @@ body {
   font-size: 30px;
   text-align: center;
 }
-
+  
 table,
 th,
 td {
@@ -135,31 +802,31 @@ td {
   font-size: 18px;
   margin: auto;
 }
-
+  
 th {
   color: #0033cc;
   font-style: italic;
 }
-
+  
 .imgtooltip {
   font-family: Times, Serif;
 }
-
+  
 .portfoliolink {
   color: blue;
   text-decoration: none;
 }
-
+  
 .portfoliolink:visited {
   color: blue;
   text-decoration: none;
 }
-
+  
 .portfoliolink:active {
   color: blue;
   text-decoration: none;
 }
-
+  
 .portfoliolink:hover {
   color: red;
   text-decoration: none;
@@ -177,14 +844,13 @@ th {
   
     .fourthline {
   font-family: Arial, Sans-Serif;
-    font-size:60px;
+    font-size:70px;
     text-align:center;
     color:black;
     padding-bottom:20px;
     padding-top: 60px;
   }
   
-
 #contact {
   background: #66ffff;
   background: -webkit-linear-gradient(left top, #66ffff, #66ff66);
@@ -194,23 +860,21 @@ th {
  padding-right:10px;
   padding-left:10px;
 }
-
-
+  
 .thirdline {
   font-family: Impact, serif;
-  font-size: 60px;
+  font-size: 70px;
   text-align: center;
   font-weight:bold;
   color:black;
   padding-bottom:20px;
 }
-
 .button {
   text-align: center;
   background-color: #d1d1e0;
   color: black;
   padding: 16px;
-  width: 170px;
+  width: 200px;
   border-radius: 5px;
   font-size: 20px;
   padding-top: 10px;
@@ -223,12 +887,12 @@ th {
   -o-transition: .3s;
   -moz-transition: .3s;
 }
-
+  
 .buttontwo {
   text-align: center;
   background-color: #d1d1e0;
   color: black;
-  width: 120px;
+  width: 150px;
   border-radius: 5px;
   font-size: 20px;
   padding: 10px;
@@ -259,15 +923,15 @@ th {
   -o-transition: .3s;
   -moz-transition: .3s;
 }
-
+  
 .button:hover {
-  width: 200px;
+  width: 230px;
   background-color: black;
   color: white
 }
-
+  
 .buttontwo:hover {
-  width: 150px;
+  width: 200px;
   background-color: black;
   color: white;
 }
@@ -287,46 +951,47 @@ th {
   text-align: center;
   font-family: Arial, san-serif;
   font-size: 15px;
+  color:black;
 }
-
+  
 .navbarpage {
   background-color: #efeff5;
   border-bottom: 2px solid red;
   color: black;
   text-decoration: none;
 }
-
+  
 .footeremaillink {
-  color: red;
+  color: black;
   text-decoration: none;
 }
-
+  
 .footeremaillink:hover {
   color: black;
   text-decoration: none;
 }
-
+  
 .footeremaillink:visited {
-  color: red;
+  color: black;
   text-decoration: none;
 }
-
+  
 .navbarone:focus {
   outline: none;
 }
-
+  
 .navbartwo:focus {
   outline: none;
 }
-
+  
 .button:focus {
   outline: none;
 }
-
+  
 .buttontwo:focus {
   outline: none;
 }
-
+  
 .buttonthree:focus {
   outline: none;
 }
@@ -334,7 +999,7 @@ th {
  #headername:hover {
   background-color:#d9d9d9;
 }
-
+  
 #headername {
   color:black;
 }
@@ -342,14 +1007,14 @@ th {
 #navbartop {
   background-color:#e5e6e8;
 }
-
+  
 .contactmeinfo {
   font-family: Times, Serif;
   font-size:20px;
   text-align:center;
   color:black;
 }
-
+  
 .navbarleft {
   background-color:#d9d9d9;
 }
@@ -394,6 +1059,8 @@ th {
     font-size:10x;
     color:black;
   }
+  
+}
 </style>
   <title>
     Austin Wiggins
@@ -457,7 +1124,7 @@ th {
   </div>
   <div id="portfolio">
     <div class="secondline">Portfolio
-    </div><br>
+    </div>
     <div class="secondsubtitle">
       Some of my recent work
     </div>
@@ -474,14 +1141,14 @@ th {
         <tr>
           <td>
             <a href="http://codepen.io/bigwigaustin/full/qNYvXE/" target="_blank"><img src="http://www.nandos.com/sites/all/themes/nandos/images/restaurants/restaurant-carousel-1.jpg" class="img" alt = "Image of a Restaurant"></a><br><br>
-            <span class="imgtooltip">The Restaurant Rater, a Project which rates websites but needs updating(to be updated in December 2016)</span><hr>
+            <span class="imgtooltip">The Restaurant Rater, a project which rates websites but needs updating(to be updated in December 2016)</span><hr>
           </td>
         </tr>
         <tr>
           <td>
             <a href="http://codepen.io/collection/nmZewJ/" target="_blank"><img src="http://blog.mufeed.in/wp-content/uploads/2011/05/animation.png" class="img" alt = "CSS Animation"></a>
             <br><br>
-            <div class="imgtooltip">A collection of <span class = "bolditalic a">8</span> CSS animations and hover effects</div><hr>
+            <div class="imgtooltip">A collection of <span class = "bolditalic a">8</span> CSS animations and hover effects</div>
           </td>
         </tr>
       </tbody>
@@ -516,7 +1183,7 @@ th {
     <div class = "paddingbottomline"></div>
   </div>
   <div id="contact">
-    <br><br>
+    <br>
     <div class="thirdline">
       Contact Me<br>
     </div>
@@ -532,7 +1199,7 @@ th {
       <a href="http://codepen.io/bigwigaustin/" target="_blank" class="a"><button class="button">
       <i class="fa fa-codepen fa-lg"></i>     Codepen
       </button></a>
-      </div><br><br><br><br><br><br><br><br><br><br><br><br>
+      </div><br><br><br><br><br><br><br><br>
   </div>
   <footer class="portfoliofooter"><br>Austin Wiggins Copyright &copy 2016.<br> <span class="footeremail"><a href = "mailto:bigwigaustin@gmail.com" target = "_blank" class = "footeremaillink">bigwigaustin@gmail.com</a></span><br>
     <span class = "bottomfooter">Programmed and Written by Austin Wiggins</span><br><br>
