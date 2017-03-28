@@ -3,6 +3,7 @@
   
 <head>
   <!--
+
      / \  \        / \         /  /
     /   \  \      /   \       /  /
    / / \ \  \    /     \     /  /
@@ -18,52 +19,73 @@ Interested in hiring me? Contact me by E-mail at bigwigaustin@gmail.com and I wi
   <meta name = "author" content = "Austin Wiggins">
   <link rel="shortcut icon" href="http://www.iconsdb.com/icons/preview/navy-blue/letter-a-xxl.png" type="image/x-icon" />
   <style>
-@media(max-width:480px) {
-  .infotext {
-    font-size: 15px;
-  }
+    .about_description {
+      display:block;
+      color:#ffa64d;
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-size:40px;
+      padding-bottom:5px;
+    }
+    
+    .about_item {
+      display:block;
+      color:#737373;
+      font-size:18px;
+    }
+    
+    body {
+      height: 100%;
+  margin: 0;
+    }
+    
+    .parallax_effect {
+    background-image:url('http://www.mountainpassions.com/winter/wp-content/uploads/2014/08/Wide-view-of-ski-area-above-Flaine-Grand-Massif-French-Alps-13975.jpg');
+    width:100%;
+     min-height:100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
   
-  #about {
-    background: linear-gradient(to right, #0066ff, aquamarine);
-    background: -webkit-linear-gradient(left, #0066ff, aquamarine);
-    background: -o-linear-gradient(right, #0066ff, aquamarine);
-    background: -moz-linear-gradient(right, #0066ff, aquamarine);
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top: 80px;
+    .firstline {
+    padding-top:100px; 
+    }
+    
+    .horizontalrule {
+      padding-bottom:100px;
+    }
+    
+     #about {
+    background-color:white;
+    padding-top: 35px;
+    padding-left:10px;
+    padding-right:10px;
+       padding-bottom:20px;
   }
   
   #portfolio {
-    background: white;
-    background: -webkit-radial-gradient(#FFFFFF, #C0C0C0, #909090);
-    background: -o-radial-gradient(#FFFFFF, #C0C0C0, #909090);
-    background: -moz-radial-gradient(#FFFFFF, #C0C0C0, #909090);
-    background: radial-gradient(#FFFFFF, #C0C0C0, #909090);
+    background-color: white;
     padding-right: 10px;
     padding-left: 10px;
+    padding-top:25px;
   }
   
   #skills {
-    background: -webkit-linear-gradient(left, rgba(255, 153, 153, 0), rgba(255, 153, 153, 1));
-    background: -o-linear-gradient(right, rgba(255, 153, 153, 0), rgba(255, 153, 153, 1));
-    background: -moz-linear-gradient(right, rgba(255, 153, 153, 0), rgba(255, 153, 153, 1));
-    background: linear-gradient(to right, rgba(255, 153, 153, 0), rgba(255, 153, 153, 1));
+    background-color:white;
     text-align: center;
     padding-right: 5px;
     padding-left: 5px;
   }
   
   #contact {
-    background: #66ffff;
-    background: -webkit-linear-gradient(left top, #66ffff, #66ff66);
-    background: -o-linear-gradient(bottom right, #66ffff, #66ff66);
-    background: -moz-linear-gradient(bottom right, #66ffff, #66ff66);
-    background: linear-gradient(to bottom right, #66ffff, #66ff66);
     padding-right: 10px;
     padding-left: 10px;
     padding-top:50px;
   }
   
+@media(max-width:480px) {
+
   .navbarleft {
   background-color:#d9d9d9;
 }
@@ -105,14 +127,7 @@ Interested in hiring me? Contact me by E-mail at bigwigaustin@gmail.com and I wi
   font-weight: bold;
   font-style: italic;
 }
-  
-  .infotext {
-  color: black;
-  font-family: Times, Serif;
-  font-size: 15px;
-  text-align: left;
-  margin-left: 10px;
-  text-indent: 15px;
+ 
 }
   
   .unorderedlist {
@@ -134,27 +149,6 @@ Interested in hiring me? Contact me by E-mail at bigwigaustin@gmail.com and I wi
   text-decoration: none;
 }
   
-  .secondline {
-  font-weight: bold;
-  font-family: Times, Serif;
-  font-size: 50px;
-  text-align: center;
-  font-style: italic;
-  color:black;
-  padding-bottom:5px;
-  padding-top:35px;
-}
-  
-  .secondsubtitle {
-  font-size: 20px;
-  text-align: center;
-  font-family: Arial, Serif;
-  font-weight: 500;
-  font-style: italic;
-  font-weight: bold;
-  color:black;
-}
-  
   body {
   color: black;
 }
@@ -168,25 +162,6 @@ Interested in hiring me? Contact me by E-mail at bigwigaustin@gmail.com and I wi
   text-align: center;
 }
 
-  table,
-th,
-td {
-  text-align: center;
-  width: 100%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font-size: 18px;
-  margin: auto;
-}
-th {
-  color: #0033cc;
-  font-style: italic;
-}
-.imgtooltip {
-  font-family: Times, Serif;
-  font-size:15px;
-  color:black;
-}
 .portfoliolink {
   color: blue;
   text-decoration: none;
@@ -207,10 +182,17 @@ th {
    .img {
    padding-bottom:10px; 
     width:100%;
+     padding-top:10px;
   }
+    
+    #portfolio_heading {
+      font-family: 'Fascinate Inline', cursive;
+      padding-top:20px;
+      font-size:40px;
+    }
   
   .fourthline {
-  font-family: Arial, Sans-Serif;
+  font-family: 'Krona One', sans-serif;
     font-size:50px;
     text-align:center;
     color:black;
@@ -221,7 +203,7 @@ th {
   .skilltitle {
     font-family: Times, Serif;
     font-size:27px;
-    color:black;
+    color:#ffa64d;
     font-weight:bold;
     text-align:center;
     padding-bottom:10px;
@@ -350,51 +332,9 @@ th {
   color: black;
   text-decoration: none;
 }
-  
-}
-
+    
 @media(min-width:480px){
-.infotext {
-    font-size: 15px;
-  }
-  #about {
-    background: linear-gradient(to right, #0066ff, aquamarine);
-    background: -webkit-linear-gradient(left, #0066ff, aquamarine);
-    background: -o-linear-gradient(right, #0066ff, aquamarine);
-    background: -moz-linear-gradient(right, #0066ff, aquamarine);
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top: 90px;
-  }
-  #portfolio {
-    background: white;
-    background: -webkit-radial-gradient(#FFFFFF, #C0C0C0, #909090);
-    background: -o-radial-gradient(#FFFFFF, #C0C0C0, #909090);
-    background: -moz-radial-gradient(#FFFFFF, #C0C0C0, #909090);
-    background: radial-gradient(#FFFFFF, #C0C0C0, #909090);
-    padding-right: 10px;
-    padding-left: 10px;
-  }
-  #skills {
-    background: -webkit-linear-gradient(left, rgba(255, 153, 153, 0), rgba(255, 153, 153, 1));
-    background: -o-linear-gradient(right, rgba(255, 153, 153, 0), rgba(255, 153, 153, 1));
-    background: -moz-linear-gradient(right, rgba(255, 153, 153, 0), rgba(255, 153, 153, 1));
-    background: linear-gradient(to right, rgba(255, 153, 153, 0), rgba(255, 153, 153, 1));
-    text-align: center;
-    padding-right: 5px;
-    padding-left: 5px;
-  }
-  #contact {
-    background: #66ffff;
-    background: -webkit-linear-gradient(left top, #66ffff, #66ff66);
-    background: -o-linear-gradient(bottom right, #66ffff, #66ff66);
-    background: -moz-linear-gradient(bottom right, #66ffff, #66ff66);
-    background: linear-gradient(to bottom right, #66ffff, #66ff66);
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top:50px;
-  }
-  
+ 
   .navbarleft {
   background-color:#d9d9d9;
 }
@@ -402,6 +342,7 @@ th {
   #headername:hover {
   background-color:#d9d9d9;
 }
+  
 #headername {
   color:black;
 }
@@ -436,19 +377,6 @@ th {
   font-style: italic;
 }
   
-  .infotext {
-  color: black;
-  font-family: Times, Serif;
-  font-size: 17px;
-  text-align: left;
-  margin-left: 10px;
-  text-indent: 15px;
-}
-  
-  .unorderedlist {
-  list-style-type: square;
-}
-  
 .a {
   color: black;
   text-decoration: none;
@@ -464,27 +392,6 @@ th {
   text-decoration: none;
 }
   
-  .secondline {
-  font-weight: bold;
-  font-family: Times, Serif;
-  font-size: 60px;
-  text-align: center;
-  font-style: italic;
-  color:black;
-  padding-bottom:5px;
-  padding-top:35px;
-}
-  
-  .secondsubtitle {
-  font-size: 30px;
-  text-align: center;
-  font-family: Arial, Serif;
-  font-weight: 500;
-  font-style: italic;
-  font-weight: bold;
-  color:black;
-}
-  
   body {
   color: black;
 }
@@ -497,26 +404,7 @@ th {
   color:black;
   text-align: center;
 }
-
-  table,
-th,
-td {
-  text-align: center;
-  width: 60%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font-size: 18px;
-  margin: auto;
-}
-th {
-  color: #0033cc;
-  font-style: italic;
-}
-.imgtooltip {
-  font-family: Times, Serif;
-  font-size:17px;
-  color:black;
-}
+ 
 .portfoliolink {
   color: blue;
   text-decoration: none;
@@ -536,11 +424,18 @@ th {
   
    .img {
    padding-bottom:10px; 
-    width:100%;
+    width:70%;
+     padding-top:10px;
   }
   
+  #portfolio_heading {
+      font-family: 'Fascinate Inline', cursive;
+      padding-top:20px;
+      font-size:45px;
+    }
+  
   .fourthline {
-  font-family: Arial, Sans-Serif;
+  font-family: 'Krona One', sans-serif;
     font-size:60px;
     text-align:center;
     color:black;
@@ -551,7 +446,7 @@ th {
   .skilltitle {
     font-family: Times, Serif;
     font-size:30px;
-    color:black;
+    color:#ffa64d;
     font-weight:bold;
     text-align:center;
     padding-bottom:10px;
@@ -685,19 +580,8 @@ th {
 }
   
 }
-
 @media(min-width:1100px) {
-  #about {
-  background: linear-gradient(to right, #0066ff, aquamarine);
-  background: -webkit-linear-gradient(left, #0066ff, aquamarine);
-  background: -o-linear-gradient(right, #0066ff, aquamarine);
-  background: -moz-linear-gradient(right, #0066ff, aquamarine);
-  border-top: 1px solid black;
-  padding-right:10px;
-  padding-top:120px;
-  padding-left:10px;
-}
-  
+ 
 .firstline {
   font-weight: bold;
   font-family: Times, Serif;
@@ -717,15 +601,6 @@ th {
   
 .horizontalrule {
   width: 80%;
-}
-  
-.infotext {
-  color: black;
-  font-family: Times, Serif;
-  font-size: 17px;
-  text-align: left;
-  margin-left: 15px;
-  text-indent: 20px;
 }
   
 .bolditalic {
@@ -751,38 +626,7 @@ th {
   color: black;
   text-decoration: none;
 }
-  
-#portfolio {
-  background: white;
-  background: -webkit-radial-gradient(#FFFFFF, #C0C0C0, #909090);
-  background: -o-radial-gradient(#FFFFFF, #C0C0C0, #909090);
-  background: -moz-radial-gradient(#FFFFFF, #C0C0C0, #909090);
-  background: radial-gradient(#FFFFFF, #C0C0C0, #909090);
-  padding-right:10px;
-  padding-left:10px;
-}
-  
-.secondline {
-  font-weight: bold;
-  font-family: Times, Serif;
-  font-size: 70px;
-  text-align: center;
-  font-style: italic;
-  color:black;
-  padding-bottom:5px;
-  padding-top:65px;
-}
-  
-.secondsubtitle {
-  font-size: 30px;
-  text-align: center;
-  font-family: Arial, Serif;
-  font-weight: 500;
-  font-style: italic;
-  font-weight: bold;
-  color:black;
-}
-  
+
 body {
   color: black;
 }
@@ -793,26 +637,6 @@ body {
   font-family: Times, Serif;
   font-size: 30px;
   text-align: center;
-}
-  
-table,
-th,
-td {
-  text-align: center;
-  width: 60%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font-size: 18px;
-  margin: auto;
-}
-  
-th {
-  color: #0033cc;
-  font-style: italic;
-}
-  
-.imgtooltip {
-  font-family: Times, Serif;
 }
   
 .portfoliolink {
@@ -833,37 +657,15 @@ th {
 .portfoliolink:hover {
   color: red;
   text-decoration: none;
-}
-  
-  #skills {
-    background: -webkit-linear-gradient(left, rgba(255, 153, 153,0), rgba(255, 153, 153,1)); 
-    background: -o-linear-gradient(right, rgba(255, 153, 153,0), rgba(255, 153, 153,1)); 
-    background: -moz-linear-gradient(right, rgba(255, 153, 153,0), rgba(255, 153, 153,1));
-    background: linear-gradient(to right, rgba(255, 153, 153,0), rgba(255, 153, 153,1));
-    text-align:center;
-    padding-right:5px;
-    padding-left:5px;
-}
-  
+} 
     .fourthline {
-  font-family: Arial, Sans-Serif;
+  font-family: 'Krona One', sans-serif;
     font-size:70px;
     text-align:center;
     color:black;
     padding-bottom:20px;
     padding-top: 60px;
   }
-  
-#contact {
-  background: #66ffff;
-  background: -webkit-linear-gradient(left top, #66ffff, #66ff66);
-  background: -o-linear-gradient(bottom right, #66ffff, #66ff66);
-  background: -moz-linear-gradient(bottom right, #66ffff, #66ff66);
-  background: linear-gradient(to bottom right, #66ffff, #66ff66);
- padding-right:10px;
-  padding-left:10px;
-  padding-top:50px;
-}
   
 .thirdline {
   font-family: Impact, serif;
@@ -946,18 +748,6 @@ th {
   color: white;
 }
   
-.portfoliofooter {
-  background: background: #c1c1d7;
-  background: -webkit-radial-gradient(white, #c1c1d7);
-  background: -o-radial-gradient(white, #c1c1d7);
-  background: -moz-radial-gradient(white, #c1c1d7);
-  background: radial-gradient(white, #c1c1d7);
-  text-align: center;
-  font-family: Arial, san-serif;
-  font-size: 15px;
-  color:black;
-}
-  
 .navbarpage {
   background-color: #efeff5;
   border-bottom: 2px solid red;
@@ -1029,13 +819,20 @@ th {
   
   .img {
    padding-bottom:10px; 
-    width:75%;
+    width:60%;
+    padding-bottom:10px;
   }
+  
+  #portfolio_heading {
+      font-family: 'Fascinate Inline', cursive;
+      padding-top:20px;
+      font-size:40px;
+    }
     
   .skilltitle {
-    font-family: Times, Serif;
+    font-family: Times, sans-serif;
     font-size:30px;
-    color:black;
+    color:#ffa64d;
     font-weight:bold;
     text-align:center;
     padding-bottom:10px;
@@ -1070,16 +867,19 @@ th {
   transition:.5s;
   -webkit-transition:.5s;
 }
-
+    
 img:hover{
   opacity:.7;
-}
+    }
     
 </style>
   <title>
     Austin Wiggins
   </title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Fascinate+Inline" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Krona+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
        <script src="https://use.fontawesome.com/508168110d.js"></script>
@@ -1108,66 +908,38 @@ img:hover{
     </div>
   </div>
 </div>
-  <div id="about">
+  <section class = "parallax_effect">
+    <div class = "parallax_img">
     <div class="firstline">Austin Wiggins</div>
     <div class="firstsubtitle">Front End Web Developer</div>
     <hr class="horizontalrule">
-    <div class="infotext">
-      If you're on the hunt for a professional Front-End Website/Webpage Developer, you've come to the right place.
-      I am a <span class="bolditalic">self taught</span> Front End Web Developer and Designer located in Colorado. I aid clients in their web development needs
-      from building websites, portfolios, blogs, and other material on the web from scratch to adding the finishing touches to an already-created web page.
-      I have designed and developed loads of web material and I have an extensive amount of experience
-      regarding the web development languages HTML, CSS, and Bootstrap, and Front-End Development in general. On top of my work as
-      a web developer, I have several hobbies including collecting old coins, playing the guitar, and reading many books.
-      <br><br> Some of the programming languages and frameworks I currently know:
-      <ul class="unorderedlist">
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>Bootstrap3 and Bootstrap4</li>
-          <li>JQuery</li>
-        <li>limited JavaScript</li>
-          <li>limited PHP</li>
-      </ul>
+    </div>
+    <div align = "center">
+  <div id="about">
+      <div class = "about_description">Languages & Frameworks</div>
+        <span class = "about_item">HTML5</span>
+        <span class = "about_item">CSS3</li>
+        <span class = "about_item">Bootstrap3 and Bootstrap4</span>
+          <span class = "about_item">JQuery</span>
+        <span class = "about_item">limited JavaScript</span>
+          <span class = "about_item">limited PHP</span>
       <br>
-      Some of the programming tools I currently use:
-      <ul class = "unorderedlisttwo">
-        <li>Codepen</li>
-        <li>GitHub</li>
-      </ul>
-      <br><br><br><br><br>
+        <div class = "about_description">My Specialties</div>
+        <span class = "about_item">Websites/Webpages</span>
+        <span class = "about_item">Blogs</span>
+        <span class = "about_item">Portfolios</span>
+        <span class = "about_item">Responsive Design</span>
+        <span class = "about_item">Themes</span>
     </div>
   </div>
   <div id="portfolio">
-    <div class="secondline">Portfolio
-    </div>
-    <div class="secondsubtitle">
-      Some of my recent work
-    </div>
-    <br>
-    <br>
-    <table align="center">
-      <tbody>
-        <tr>
-          <td>
-            <a href="http://codepen.io/bigwigaustin/full/amdxRy/" target="_blank"><img src="https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/16_abraham_lincoln%5B1%5D.jpg" class="img" alt = "Image of Abraham Lincoln"></a><br><br>
-            <span class="imgtooltip">A tribute to Abraham Lincoln, the 16<sup>th</sup> president of the USA, using a simple Bootstrap technique</span><hr>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <a href="http://codepen.io/bigwigaustin/pen/xRJMbb" target="_blank"><img src="https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2003/07/Picture-5.png" class="img" alt = "Image of a CSS Form"></a><br><br>
-            <span class="imgtooltip">One of many possible form layouts using CSS</span><hr>
-          </td>
-        </tr>
-        <tr>
-          <td>
+    <div align="center">
+      <div id = "portfolio_heading">Portfolio</div>
+            <a href="http://codepen.io/bigwigaustin/full/amdxRy/" target="_blank"><img src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/725377.amdxRy.3c0afa74-1ed5-4a9c-a4f1-166bc83a7587.png" class="img" alt = "Image of Abraham Lincoln"></a><br><br><hr>
+            <a href="http://codepen.io/bigwigaustin/pen/xRJMbb" target = "_blank"><img src = "https://s3-us-west-2.amazonaws.com/i.cdpn.io/725377.xRJMbb.146e896c-fbba-4a7c-87d7-4b885bb8a9bd.png" class="img" alt = "Image of a CSS Form"></a><br><br><hr>
             <a href="http://codepen.io/collection/nmZewJ/" target="_blank"><img src="http://blog.mufeed.in/wp-content/uploads/2011/05/animation.png" class="img" alt = "CSS Animation"></a>
             <br><br>
-            <div class="imgtooltip">A collection of <span class = "bolditalic a">13</span> CSS animations and hover effects</div>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+    </div>
     <br><br>
   </div>
   <div id = "skills">
@@ -1216,6 +988,7 @@ img:hover{
       </button></a>
       </div><br><br><br><br><br><br><br><br>
   </div>
+    </div>
   <footer class="portfoliofooter"><br>Austin Wiggins Copyright &copy 2016-2017.<br> <span class="footeremail"><a href = "mailto:bigwigaustin@gmail.com" target = "_blank" class = "footeremaillink">bigwigaustin@gmail.com</a></span><br>
     <span class = "bottomfooter">Programmed and Written by Austin Wiggins</span><br><br>
-  </footer>
+  </footer>   
